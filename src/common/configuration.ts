@@ -1,3 +1,11 @@
+/*
+ * @Author: 罗文 742787938@qq.com
+ * @Date: 2024-08-26 09:18:10
+ * @LastEditors: 罗文 742787938@qq.com
+ * @LastEditTime: 2024-08-26 16:50:20
+ * @FilePath: \vue-web-terminal\src\common\configuration.ts
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
 import {Command} from "~/types";
 
 export const DEFAULT_COMMANDS:Command[] = [
@@ -35,17 +43,6 @@ export const DEFAULT_COMMANDS:Command[] = [
             }, {
                 cmd: 'clear history',
                 des: 'Clear command history'
-            }
-        ]
-    }, {
-        key: 'open',
-        title: 'Open page',
-        group: 'local',
-        usage: 'open <url>',
-        description: 'Open a specified page.',
-        example: [
-            {
-                cmd: 'open blog.beifengtz.com'
             }
         ]
     }

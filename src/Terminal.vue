@@ -1278,7 +1278,7 @@ const _onInput = useDebounceFn((e: InputEvent) => {
       tips.helpBox.lastRect = null
     }
   })
-}, 100, { maxWait: 500 })
+}, 1100, { maxWait: 500 })
 
 const _checkInputCursor = () => {
   let eIn = terminalCmdInputRef.value
